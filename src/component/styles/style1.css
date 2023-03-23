@@ -1,0 +1,113 @@
+body{
+    background-color: #d7d7d7;
+}
+
+.top{
+    z-index: 100;
+}
+
+.container{
+    background-color: #fff;
+    max-width: 80%;
+    margin: 0 auto;
+    border-radius: 4px;
+}
+
+h1,h2{
+    text-align: center; 
+}
+
+h2{
+    border-bottom:1px solid #ddd;
+    padding-bottom: 10px;
+    margin:0 ;
+}
+
+.navbar-ul-list{
+    justify-self: flex-end;
+    list-style-type: none;
+    display: flex;
+}
+
+.navbar-ul-list li{
+    padding-left: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.form-container
+{   
+    margin-top: 100px;
+    margin: auto;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    -webkit-box-shadow: 0px 10px 23px -10px rgba(0,0,0,0.45);
+    -moz-box-shadow: 0px 10px 23px -10px rgba(0,0,0,0.45);
+    box-shadow: 0px 10px 23px -10px rgba(0,0,0,0.45);
+}
+
+.inputTag{
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    outline: none;
+}
+
+.submitBtn{
+    padding: 10px 0;
+    border-radius: 4px;
+    border: none;
+    margin-top: 15px;
+    background-color: rgb(33, 170, 53);
+    font-weight: bold;
+    color: #fff;
+    width: 150px;
+}
+
+.main-form input{
+    width: 100%;
+}
+
+.task-grp{
+    margin: 0 auto;
+}
+
+.errorMsg{
+    color: #a22626;
+}
+
+.task{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom:1px solid #ddd;
+    align-items: center;
+}
+
+.task-button .rmv-btn{
+    background-color: #a22626;
+    font-size: 15px;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.dflex{
+    display: flex;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.align-center{
+    align-items: center;
+}
